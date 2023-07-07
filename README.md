@@ -43,7 +43,15 @@
 <p>Additionally, teachers can create assessments and quizzes, manage attendance, and provide feedback to students.</p>
 
 <h2>Student Side/Profile</h2>
+<img src="/images/dasf.png">
 <p>The Student side offers a dashboard for students to access course materials, track progress, and communicate with teachers and peers. Some features available to students include:</p>
+<img src="/images/Class Test - Exam Page.png">
+<img src="/images/Class Test -00_00_00 Start Test.png">
+<img src="/images/Assessment.png">
+<img src="/images/Courses.png">
+
+
+
 
 <ul>
   <li>Course overview and access to course materials</li>
