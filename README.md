@@ -24,7 +24,13 @@
 </ul>
 
 <h2>Teacher Side/Profile</h2>
+<img src="/images/Dashboard.png">
 <p>The Teacher side provides a dashboard for teachers to effectively manage their courses and track student progress. Some features and functionalities available to teachers include:</p>
+<img src="/images/Assessment.png">
+<img src="/images/Courses.png">
+<img src="/images/Frame184.png">
+
+
 
 <ul>
   <li>Course creation and management</li>
