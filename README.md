@@ -3,7 +3,13 @@
 <p>This repository contains the source code for a Learning Management System (LMS) project. The project aims to provide an online platform for educational institutions to manage their courses, students, assessments, and more. The system consists of three main profiles: Admin, Teacher, and Student.</p>
 
 <h2>Admin Side/Profile</h2>
+
+<img src="images/Admin-Dashboard.svg">
 <p>The Admin side serves as the main dashboard for project administration. The Admin has superuser privileges and can manage multiple organizations using the project. Some key features and responsibilities of the Admin include:</p>
+
+<img src="images/Apes.png">
+<img src="images/Admin-Schedule.png">
+<img src="images/Admin-Schedule.png">
 
 <ul>
   <li>Managing departments within the organization</li>
