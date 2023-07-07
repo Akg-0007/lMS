@@ -1,0 +1,142 @@
+.assignment_create_page{
+    padding: 32px;
+}
+
+.assignment_create_page .dropdown-toggle {
+ border-radius: 8px !important;
+}
+.assignment_create_page .dropdown,.assignment_create_page .dropdown-menu {
+ border-radius: 8px !important;
+}
+.assignment_create_header{                               
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    margin-bottom: 28px;
+}
+.assignment_create_header span{
+font-size: 24px;
+font-weight: 600;
+color:var(--clr-textDark);
+cursor: pointer;
+}
+.assignment_create_header p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(  --clr-textLight);
+  cursor: pointer;
+
+}
+.create_description{
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 24px;
+}
+.create_description_header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 44px;
+}
+.create_description_header span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.assignment_create_line{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    /* width: 10px; */
+    height: 166px;
+}
+.Course_dropdown{
+  width: 300px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+
+
+
+  .create_input{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content:space-between;
+  }
+  .create_input_title {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  .create_input_title input{
+    width: 700px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 400px;
+    border:1px solid var(--clr-txtareaborder);
+    outline:none;
+  }
+  .create_input_title input:focus, .create_input_title input:valid, textarea:focus,  textarea.has-content {
+    border-color: var(--clr-primary) !important;
+  }
+  
+  .create_input_title label, .create_input_title label{
+  position:absolute;
+  padding:0 3px;
+    left: 12px;
+    top: 12px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    color: var(--clr-textLight) ;
+  }
+  .create_input_title input:focus~label,
+  .create_input_title input:valid~label
+  {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--clr-primary) ;
+  }
+ 
+  .create_textarea {
+  position: relative;
+  margin-bottom: 24px;
+  }
+  .create_textarea label{
+    position: absolute;
+    padding:0 3px;
+    left: 12px;
+    top: 12px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    color: var(--clr-textLight) ;
+    }
+    .create_textarea textarea:focus+label, textarea.has-content+label{
+      top: -8px;
+      left: 10px;
+      background-color: #fff;
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--clr-primary) ;
+    }
+
+  .create_textarea textarea
+  {
+    width: 700px;
+    resize: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius:8px;
+    border: 1px solid var(--clr-txtareaborder);
+  }
+  .upload_assignment_file{
+    padding-top:10px ;
+  }

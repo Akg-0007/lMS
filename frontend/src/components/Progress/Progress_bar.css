@@ -1,0 +1,29 @@
+.progress_bar_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+
+
+.heading_attendance {
+    display: flex;
+    align-items: center;
+    Font-size: 16px;
+    font-weight: 500;
+    color: var(--clr-textDark);
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.heading_attendance p {
+    color: var(--clr-supportGreen);
+}
+
+.st-attendance-container {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 24px;
+}

@@ -1,0 +1,118 @@
+.assessmenttracker-submit {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+}
+
+.assessment-container {
+    width: 620px;
+    height: 354px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.assessment-heading {
+    color: #222222;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-cross {
+    cursor: pointer;
+}
+
+.logo-cross img {
+    height: 12px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.assessment-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.assessment-content {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    color: #788898;
+   padding: 0 70px 24px 24px;
+}
+
+
+
+
+
+
+
+.assignment-section {
+    width: 279px;
+    height: 58px;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 0 24px;
+}
+
+.doc-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.doc-logo img {
+    height: 58px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.assi-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+.assignment-section-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.assignment-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    color: #333333;
+} 
+
+.file-type {
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+}
+.download{
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   
+   }

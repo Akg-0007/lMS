@@ -1,0 +1,116 @@
+.teacher-edit-container {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    min-height: 494px;
+    width: 100%;
+}
+
+.teacher-edit-heading p {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 24px;
+}
+
+.fields-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.col-section-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    min-height: 100px;
+}
+
+.col-section-2 {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+.mar {
+    margin-top: 24px;
+
+}
+
+.edit-group1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.edit-group1 input {
+    padding: 12px;
+    background: transparent;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--clr-labelGrey);
+}
+
+.edit-group1 label {
+    font-size: 12px;
+    position: absolute;
+    top: 54%;
+    left: 12px;
+    transform: translateY(-60%);
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    color: var(--clr-labelGrey);
+}
+
+.edit-group1 input:focus~label,
+.edit-group1 input:valid~label {
+    top: 2px;
+    left: 12px;
+    padding: 0 2px;
+    background-color: var(--clr-greyWhite);
+    color: var(--clr-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-experience p {
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+   
+}
+
+.work-experience span {
+    color: #818181;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    margin-top: 10px;
+}
+.profile-skills-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

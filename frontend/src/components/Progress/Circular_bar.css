@@ -1,0 +1,6 @@
+
+.round_bar span{
+    color:var(--clr-textDark);
+    font-weight: 500;
+    font-size: 14px;
+}

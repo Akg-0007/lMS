@@ -1,0 +1,51 @@
+.adupload_white{
+    /* width: 620px; */
+    padding:24px;
+    height: 460px;
+}
+.adup_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adup_header img {
+    cursor: pointer;
+}
+.admin_drag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    text-align: center;
+    gap: 18px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 250px;
+}
+.uploadText{
+    font-weight: 400;
+font-size: 12px;
+color: #818181;
+}
+.upload_header{
+    font-weight: 400;
+    color: #333333;
+font-size: 13px;
+}
+.csv_upload {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    float: right;
+   padding-top :24px;
+}
+.csv_select:hover {
+    background-color: var(--clr-primary);
+    color:#fff;
+}
+.csv_upload button:hover {
+    background-color: var(--clr-primary);
+    color:#fff;
+}

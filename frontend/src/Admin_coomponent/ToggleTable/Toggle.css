@@ -1,0 +1,43 @@
+.toggle_option {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle_option .upper {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.toggle_option .lower,
+.ViewCurri_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle_option .dropdowns {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.searchTeacher {
+    padding: 12px;
+}
+
+.btn-filter {
+        width: 102px;
+        border-radius: 4px;
+        height: 34px;
+        color: #F3F6F9;
+        background: #5B36C6;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+}

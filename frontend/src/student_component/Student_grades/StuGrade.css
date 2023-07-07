@@ -1,0 +1,88 @@
+.Stu_Grade_header {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: space-between;
+    color: #0FB366;
+    padding: 24px;
+}
+
+.Stu_Grade_header span,
+img {
+    cursor: pointer;
+    color: #333333
+}
+
+.stu_grade {
+    display: flex;
+    gap: 18px;
+    padding: 24px;
+}
+
+.stu_Grade_headi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.Grade_semseter_name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.Cgpa_stuGrade {
+    color: #788898;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.Cgpa_stuGrade span {
+    color: #0FB366;
+}
+
+.stu_hr {
+    margin: auto;
+    width: 90%;
+    background-color: #788898;
+}
+
+.stu_left_grade,
+.stuMarks_col {
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+}
+
+.stuMarks_col {
+    padding: 24px;
+}
+
+.particular_sem_marks {
+    background-color: #F9FAFC;
+    padding: 12px;
+}
+
+.stu_marks {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Grade_semseter_names {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.Cgpa_stuGrades {
+    font-weight: 400;
+    font-size: 16px;
+    color: #788898;
+}
+
+.Cgpa_stuGrades span {
+    color: #0FB366;
+}

@@ -1,0 +1,131 @@
+@keyframes count-up {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .total-students {
+    animation: count-up 2s ease-in-out forwards;
+  }
+  
+  
+.user-container {
+    width: 100%;
+    min-height: 160px;
+  
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.admin-users {
+    display: flex;
+ justify-content: space-between;
+ width: 100%;
+ /* background-color: green; */
+    gap: 30px;
+}
+
+.user-content {
+    display: flex;
+    background: #7E65EF;
+    min-height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px 10px 0 0px;
+}
+
+.user-content2 {
+    display: flex;
+    background: #5272E9;
+    min-height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px 10px 0 0px;
+}
+
+.user-content3 {
+    display: flex;
+    background: #24B0C9;
+    min-height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px 10px 0 0px;
+}
+
+.user-content4 {
+    display: flex;
+    background: #E58F55;
+    min-height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px 10px 0 0px;
+}
+
+.admin-user-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-user-data p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.view-all-user,
+.view-all-teacher,
+.view-all-students,
+.view-all-departments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 20px;
+
+}
+
+.view-all-user p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #7E65EF;
+    cursor: pointer;
+}
+
+.view-all-teacher p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #5272E9;
+    cursor: pointer;
+}
+
+.view-all-students p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #5272E9;
+    cursor: pointer;
+}
+
+.view-all-departments p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #E58F55;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.feedback-container_all {
+    /* background: var(--clr-greyWhite); */
+    border-radius: 12px;
+    min-width: 438px;
+    min-height: 203px;
+}
+.file_added_all{
+    min-width: 100% !important;
+}

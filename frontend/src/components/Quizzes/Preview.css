@@ -1,0 +1,92 @@
+.preview_header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.preview_header img{
+    cursor: pointer;
+}
+.quiz-back{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* position: relative; */
+    position: fixed;
+    overflow: scroll;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+.quiz-front{
+    position: absolute;
+width: 620px;
+background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+left: 30%;
+top: 65px;
+padding: 24px;
+}
+.quiz-title{
+    font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+}
+.quiz-head{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.total-qn{
+    font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+
+color: #788898;
+
+}
+.quiz-qn-title{
+    font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #222222;
+}
+.mcq-qn{
+    margin:24px 0px;
+}
+.mcq{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mcq-option{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   color: white;
+    background: #5B36C6;
+    border-radius: 4px;
+    height: 28px;
+    width: 28px;
+    font-weight: 500;
+font-size: 13px;
+line-height: 130%;
+}
+.mcq p{
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #222222;
+margin-left: 10px;
+}
+.break{
+    border: 1px solid #D8DADC;
+
+}

@@ -1,0 +1,23 @@
+.addProgram{
+    padding: 24px;
+}
+.add_Todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addProgram_delete{
+    display: flex;
+    gap: 18px;
+   cursor: pointer;
+}
+.addProgram_delete button{
+cursor: pointer;
+}
+.nextProgramButton{
+    float: right;
+}
+.depa__add{
+    padding: 24px;
+}

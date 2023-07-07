@@ -1,0 +1,280 @@
+
+  
+.st-sidenav-container {
+    width: 280px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    background: #3644C6;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+
+}
+
+svg {
+    cursor: pointer;
+}
+
+.sidenav {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* padding: -3px; */
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+.side_upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.side_logo img {
+    /* height: 4rem; */
+    /* padding: 1.5rem;
+ */
+    padding-top: 32px;
+    padding-left: 29px;
+    cursor: pointer;
+}
+
+.side_option_1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 24px;
+    gap: 12px;
+
+}
+
+.side_option-1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding:0 24px ;
+   gap: 12px;
+}
+
+.side_option-1 ul li:hover, .sidenav a.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--clr-greyWhite);
+    opacity: 1;
+    border-radius: 10px;
+}
+.sidenav ul a {
+    opacity: 0.8;
+}
+.side_option-1 ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--clr-greyWhite);
+    line-height: 130%;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    padding: 8px 8px;
+    cursor: pointer;
+
+    /* justify-content: space-between; */
+}
+
+.side_option-1 ul a {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+
+
+
+
+.side_option_1 ul li:hover, .sidenav a.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--clr-greyWhite);
+    border-radius: 10px;
+
+}
+
+.side_option_1 ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 130%;
+    color: var(--clr-greyWhite);
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    padding: 8px 8px;
+    cursor: pointer;
+
+    /* justify-content: space-between; */
+}
+
+.side_option_1 ul a {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+.side_line {
+    /* width: 100%; */
+  
+    color: #FFFFFF33;
+    border-bottom: 1px solid #FFFFFF33;
+    margin: 24px;
+}
+
+.side_profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+
+.side_profile img {
+    border-radius: 50%; 
+   object-fit: cover;
+    margin-right: 8px;
+    gap: 10px;
+    height: 46px;
+    width: 46px;
+}
+
+.side-profile-img {
+    object-fit: cover;
+}
+
+.side_data {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.side_name span {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side_name a {
+    text-decoration: none;
+    
+}
+
+#profile_name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--clr-greyWhite);
+    padding: 2px;
+}
+
+#profile_registration {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--clr-greyWhite);
+    opacity: 80%;
+    line-height: 130%;
+    padding: 2px;
+}
+
+#setting {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.log-out {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    cursor: pointer;
+    }
+.log-out img{
+    margin: 0;
+    width: 100%;
+    height: 26px;
+}
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 786px) {
+    .hamburger{
+        display: block;
+    }
+    .side_upper{
+        /* background-color: red; */
+        display: none;
+    }
+}
+
+
+@media (max-width: 786px) {
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1001;
+    }
+  
+    .st-sidenav-container{
+        /* width:100px; */
+    }
+    .sidenav {
+      width: 50%;
+      height: auto;
+      position: relative;
+      justify-content: center;
+      display: flex;
+    }
+   
+  
+    .sidenav .side_upper,
+    .sidenav .side_option-1 {
+      
+      padding: 20px;
+    }
+  
+    .sidenav .side_option-1 ul li {
+      margin-bottom: 10px;
+      
+    }
+    .side_option_1 ul{
+        /* width: 200px; */
+        min-height: 500px;
+     
+    }
+    .sidenav .side_option-1 ul {
+      margin-top: 0;
+    }
+  
+    .sidenav .side_line {
+      display: none;
+    }
+  
+    .sidenav .side_profile {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .sidenav .side_profile .side_data {
+     
+    
+      align-items: center; 
+    }
+  
+     .side_name {
+      text-align: center;
+      display: none;
+    }
+    .res-dash {
+        display: none;
+      }
+   
+  }

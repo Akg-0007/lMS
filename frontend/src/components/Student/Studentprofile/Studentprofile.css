@@ -1,0 +1,268 @@
+@media screen and (max-width: 786px) {
+    .st-profile {
+        min-height: 100vh;
+        padding: 16px;
+       
+       
+      
+    }
+
+    .res-profile
+     {
+        min-height: auto;
+        padding: 16px;  
+        border: 2px solid red ;
+       
+    }
+
+    .st-right-pwd p {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    .st-data {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .st-name-data {
+        font-size: 12px;
+    }
+
+    .st-registartion,
+    .st-section,
+    .st-dep {
+        font-size: 12px;
+    }
+
+  
+
+    .st-academic p {
+        font-size: 14px;
+    }
+
+    .student-info {
+        grid-template-columns: 50%;
+        gap: 16px;
+    }
+
+    .st-branch {
+        font-size: 10px;
+        margin-bottom: 24px;
+    }
+
+    .st-group input {
+        padding: 8px;
+        font-size: 8px;
+        height: 30px;
+    }
+
+    .st-group label {
+        top: 40%;
+        font-size: 11px;
+    }
+}
+
+
+
+.st-profile {
+    background: #F9FAFC;
+    min-height: 1000px;
+    width: 100%;
+    /* padding: 32px; */
+}
+
+.st-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.st-profile-heading {
+    color: #333333;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.st-left {
+    background: #FFFFFF;
+    min-height: 947px;
+    width: 100%;
+    padding: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.st-right {
+    background: #FFFFFF;
+    min-height: 344px;
+    padding: 24px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.st-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.st-right-pwd p {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.st-data {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 42px;
+}
+
+.st-name-data {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.st-registartion {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #788898;
+}
+
+.st-section {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #788898;
+}
+
+.st-photo {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+/* .st-photo img{
+    width: 100%;
+    object-fit: cover;
+    height: 116px;
+    border-radius: 50%;
+} */
+
+.st-academic p {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.student-info {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: 50% 50%;
+    margin-top: 24px;
+}
+
+.st-details {
+    display: flex;
+    flex-direction: column;
+    /* margin: 24px 0; */
+    gap: 5px;
+
+}
+
+.st-dep {
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.st-branch {
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.st-group {
+    width: 100%;
+    position: relative;
+    /* margin:0 24px;    */
+   margin-bottom: 24px;
+    }
+
+    .st-group.btn {
+        position: relative;
+      }
+      .st-group.btn .errormsg {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        font-size: 12px;
+      }
+      .st-group.btn .errormsg.error {
+        color: var(--clr-supportRed);
+      }
+      .st-group.btn .errormsg.success {
+        color: var(--clr-supportGreen);
+      }
+  
+  .st-group input {
+      position: relative;
+      padding: 12px;
+      width: 100%;
+      background: transparent;
+      height: 41px;
+      border: none;
+      font-weight: 400;
+      font-size: 13px; 
+      border: 1px solid var(--clr-labelGrey);
+      border-radius: 8px;
+  }
+  
+  .st-group label {
+      font-size: 13px;
+      position: absolute;
+      top: 55%;
+      left: 12px;
+      transform: translateY(-60%);
+      pointer-events: none;
+      transition: 0.3s ease-in;
+      color: var(--clr-labelGrey);
+  }
+  
+  .st-group input:focus~label,
+  .st-group input:valid~label {
+      top: 2px;
+      left: 12px;
+      background-color: var(--clr-greyWhite);
+      color: var(--clr-primary);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+  }
+  .st-group input:focus,
+  .st-group input:valid
+   {
+      border-color: #6842D4 ;
+  }

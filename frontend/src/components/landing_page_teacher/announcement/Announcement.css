@@ -1,0 +1,358 @@
+
+#wave3 {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 30%;
+  }
+  #wave3 .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+    background: #303131;
+    animation: wave2 1.3s linear infinite;
+  }
+  #wave3 .dot:nth-child(2) {
+    animation-delay: -1.1s;
+  }
+  #wave3 .dot:nth-child(3) {
+    animation-delay: -0.9s;
+  }
+  @keyframes wave3 {
+    0%, 60%, 100% {
+      transform: initial;
+    }
+    30% {
+      transform: translateY(-50%);
+    }
+  }
+  
+
+
+
+
+.accorddian_heading {
+    font-size: 16px !important;
+}
+.lpart2 {
+    color: rgba(51, 51, 51, 1);
+
+    /* width: 100%; */
+    /* height: 646px; */
+    background: var(--clr-greyWhite);
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    /* padding-left: 32px; */
+
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.div_main_container {
+    background: #F4F7FC;
+    /* width: 730px; */
+    width: 100%;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.accordion-item {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    padding: 24px 24px 0 24px;
+}
+
+.accordion-item hr {
+    border: 1px solid #D8DADC;
+}
+
+.accordian-hr {
+    margin: 10px 0 0 0;
+}
+
+
+.accord_heading_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 8px;
+}
+
+.accordion-link {
+    /* padding-bottom: 25px; */
+}
+
+.accordion-link:hover {
+    cursor: pointer;
+}
+
+.acc_show_content {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 130%;
+    /* identical to box height, or 17px */
+
+    color: #000000;
+
+}
+
+.acc_show_content1 {
+    /* width: 70%; */
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 130%;
+    padding-top: 8px;
+    /* identical to box height, or 17px */
+    padding-bottom: 8px;
+
+    color: #000000;
+
+}
+
+/* CSS */
+.button-18 {
+    align-items: center;
+    background: #F04438;
+    border-radius: 35px;
+
+    border: 0;
+    /* box-sizing: border-box; */
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 130%;
+
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background: #ff1100;
+    color: #000000;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.answer {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 160%;
+    /* width: 70%; */
+    /* or 21px */
+    padding-bottom: 13px;
+
+    color: #000000;
+}
+
+.line_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_head {
+    padding-left: 24px;
+    display: flex;
+
+}
+
+.accordian_content {
+    display: flex;
+}
+
+
+.ann_list_group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+
+/* 
+ul li:last-child {
+    margin-right: 0;
+} */
+
+
+/* .tab-content .active1 {
+    display: block;
+} */
+
+.tab-content .tab-pane p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.ann_list_group .ann_list a {
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.ann_list_group .ann_list a:hover::before,
+.ann_list_group .ann_list a.active::before {
+    content: "";
+    position: absolute;
+    top: 95%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    transform: translateY(-50%);
+    background-color: rgba(91, 54, 198, 1);
+}
+
+
+
+
+
+.navbar_head {
+    margin-top: 24px;
+}
+
+/* .lines_table .time_ontable:not(:first-child) */
+.ann_nav .ann_list_group .ann_list:not(:first-child) {
+    margin-left: 30px;
+
+}
+
+
+/* 
+ul li {
+    padding-bottom: 5px;
+} */
+
+.navbar_head .ann_nav .ann_list_group .ann_list a {
+    /* display: flex; */
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #788898;
+    transition: color 0.7s ease;
+}
+
+.navbar_head .ann_nav .ann_list_group .ann_list:hover {
+
+    cursor: pointer;
+
+}
+
+.inactive {
+    display: none;
+}
+
+
+
+/* +------**+*+*+***+**+*++*+*+*********************************** */
+
+
+.lpart_upper_container {
+    /* height: 80px;  64 + 16px */
+    /* position: sticky; */
+    /* -webkit-position: sticky; */
+    /* negative top allows for 16 pixels of movement before sticking */
+    /* top: -16px;  */
+    /* make sure header overlaps main*/
+    z-index: 1;
+    color: rgba(51, 51, 51, 1);
+    /* text-align: center; */
+    /* fix weird flickering issue in chrome: https://stackoverflow.com/a/22224884/286685 */
+    -webkit-backface-visibility: hidden;
+    padding: 24px 24px 0 24px;
+}
+
+/* PSEUDO ELEMENTS to create drop-shadow */
+.lpart_upper_container::before,
+.lpart_upper_container::after {
+    content: '';
+    /* display: block; */
+    /* height: 16px; */
+    /* make pseudo elements sticky as well */
+    /* position: sticky; */
+    /* -webkit-position: sticky; */
+}
+
+/* SHADOW */
+.lpart_upper_container::before {
+    top: 48px;
+    /* shadow is at bottom of element, so at 48 + 16 = 64px */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* COVER */
+.lpart_upper_container::after {
+    /* linear gradient from background color to transparent acts as
+       a transition effect so the shadow appears gradually */
+    /* background: linear-gradient(white 10%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.4) 70%, transparent); */
+    /* top: 0; */
+    /* cover should fall over shadow */
+    z-index: 2;
+}
+
+
+
+.container11 {
+    width: 100%;
+    height: 660px;
+    overflow: auto;
+    border-radius: .4rem;
+    box-shadow: none;
+    /* margin-top: 50px; */
+    /* z-index: 1; */
+}
+
+.lpart_upper_container.shadow {
+    box-shadow: 0px 16px 35px 13px #FFFFFF;
+}
+
+.container11::-webkit-scrollbar {
+    width: 5px;
+}
+
+.container11::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+.container11::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 7px;
+}
+
+.container11::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+.container11.scroll-shadow {
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); */
+}

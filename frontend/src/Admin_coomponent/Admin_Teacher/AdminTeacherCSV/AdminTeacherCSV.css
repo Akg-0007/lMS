@@ -1,0 +1,45 @@
+.AdminTeacherCsv{
+    /* padding: 32px; */
+}
+.AdminTeacherCsvHEader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 24px 0;
+}
+.AdminTeacherCsvHEader span{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-weight: 600;
+font-size: 24px;
+color: #333333;
+}
+.AdminTeacherCsvHEader p {
+    font-weight: 400;
+    font-size: 16px; 
+    color: #788898;
+}
+.adTeach_desc{
+    border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+.adTeach_desc_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+.right_ad_tech{
+    display: flex;
+    align-items: center;
+}
+.last_td{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.addTeacher:hover{
+background-color: var(--clr-primary);
+color: #fff;
+}

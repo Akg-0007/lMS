@@ -1,0 +1,133 @@
+.teacher-profile {
+    background: #FFFFFF;
+    width: 100%;
+    min-height: 506px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.teacher-profile2 {
+    background: #FFFFFF;
+    width: 100%;
+    min-height: 166px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+
+
+
+.teacher-profile-section {
+    min-height: 196px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-bottom: 24px;
+    padding: 24px;
+}
+
+.teacher-schedule-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #818181;
+    text-transform: capitalize;
+}
+
+.teacher-profile-section2 {
+    background: #FFFFFF;
+    min-height: 476px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    padding-bottom: 0;
+}
+
+
+.teacher-schedule-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 24px;
+}
+
+.ts-name {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.ts-department {
+    color: #818181;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.ts-id {
+    color: #818181;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.ts-bio {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 24px;
+}
+
+.ts-bio span {
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+}
+
+.ts-bio p {
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+.teacher-schedule-contact {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 18px 24px;
+}
+
+.ts-ctc{
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+}
+.ts-no{
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+}
+.teacher-schedule-contact span{
+    color: #333333;
+}

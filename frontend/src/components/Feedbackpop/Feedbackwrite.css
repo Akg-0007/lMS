@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;800&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+.text-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+.text-content::-webkit-scrollbar-thumb {
+    background: var(--clr-textLight);
+    border-radius: 4px;
+}
+
+.assignment-feedback {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+    inset: 0;
+    position: fixed;
+}
+
+.assignment-container {
+    background: var(--clr-greyWhite);
+    border-radius: 12px;
+    width: 553px;
+    height: 343px;
+}
+
+.write-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 25px;
+    margin-top: 5px;
+}
+
+.write-logo-content {
+
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 10px;
+    font-size: 14px;
+    color: var(--clr-textDark);
+
+}
+
+.feedback-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.feedback-content .text-content {
+    width: 505px;
+    height: 190px;
+    margin: 15px;
+    resize: none;
+    outline: none;
+    font-style: normal;
+    /* font-family: 'Lexend'; */
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 12px;
+    color: var(--clr-textDark);
+    letter-spacing: 0.02em;
+}
+
+.feedback-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    gap: 24px;
+}

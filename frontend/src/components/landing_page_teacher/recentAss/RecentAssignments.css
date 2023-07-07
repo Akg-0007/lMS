@@ -1,0 +1,87 @@
+/*    rpart 2   Recent Assignments
+ */
+
+
+ .rpart2 {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    /* width: 320px; */
+    height: 357px;
+    background: #FFFFFF;
+    margin-top: 32px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding:  24px;
+   
+    position: relative;
+}
+
+.recent_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent_head_items {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+   
+}
+
+.recent_head_items1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #333333;
+    cursor: pointer;
+
+}
+
+.ca_list_av {
+  position: relative;
+}
+.ca_list_av:not(:last-child):after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(216, 218, 220, 0.5);
+}
+.recent_ca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+
+.ca_Number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    align-items: center;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 230px;
+}
+
+.ca_details_code {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 130%;
+
+    align-items: center;
+    padding-top: 4px;
+    color: #788898;
+
+
+}
+
+

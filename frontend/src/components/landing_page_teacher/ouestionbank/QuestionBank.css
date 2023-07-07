@@ -1,0 +1,82 @@
+
+.rpart3 {
+    /* display: flex; */
+    /* width: 320px; */
+    min-height: 355px;
+    background: #FFFFFF;
+    padding: 24px;
+    /* Border/Border-box */
+
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    /* margin-left: ; */
+    position: relative;
+
+}
+
+.errormsg {
+    color: var(--clr-supportRed);
+}
+
+.Question_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+   
+
+}
+
+.Question_head_items {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.Question_head_items1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #333333;
+    cursor: pointer;
+
+}
+
+.qa_list_av {
+    position: relative;
+}
+.qa_list_av:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.recent_qa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 24px; */
+
+
+}
+
+.qa_Number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+
+    align-items: center;
+    color: #333333;
+
+
+}
+
+.qa_details_code {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 130%;
+    align-items: center;
+    padding-top: 4px;
+    color: #788898;
+}

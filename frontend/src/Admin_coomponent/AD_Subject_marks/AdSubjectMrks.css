@@ -1,0 +1,35 @@
+.adSubContainer{
+    width: 620px;
+    height: 453px;
+}
+
+.AdSub_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.AdSub_header img{
+    cursor: pointer;
+}
+.AdSubHeader{
+padding:36px;
+}
+.adSub_table_part{
+    padding:36px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.adSub_table{
+    border: 2px solid #D8DADC;
+    text-align: left;
+}
+.adSub_table thead td
+{
+    border: 2px solid #D8DADC;
+    padding: 8px;
+}
+.adSub_table tbody td{
+    padding: 8px;
+    border: 2px solid #D8DADC;
+}

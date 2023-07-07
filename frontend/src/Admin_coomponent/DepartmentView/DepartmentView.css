@@ -1,0 +1,46 @@
+.DepartmentView{
+    padding: 12px;
+}
+.View__header{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+   padding:24px 0 24px 0;
+}
+.DepartmentView_desc{
+    border: 2px solid #D0D5DD;
+border-radius: 8px;
+padding:18px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.DepartmentView_desc p{
+    font-weight: 400;
+font-size: 13px;
+color: #333333;
+}
+.depart_name{
+    font-weight: 500;
+font-size: 18px;
+color: #333333;
+}
+.Head__name{
+    font-weight: 400;
+font-size: 14px;
+color: #333333;
+}
+.Head__name small{
+    color: var(--clr-textLight);
+}
+.depart__Contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+font-size: 14px;
+color: #788898;
+}
+.DepartmentView_desc p {
+    padding: 24px 0 24px 0;
+}

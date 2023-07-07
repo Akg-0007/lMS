@@ -1,0 +1,30 @@
+.AdSc{
+    /* padding: 31px; */
+    /* background-color: #F5F5F5; */
+}
+.AdSc_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 24px 0;
+}
+.AdSc_desc{
+    border: 2px solid #D0D5DD;
+    min-height: 100vh;
+border-radius: 8px;
+background-image: url(../../../assets/back.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-color: #fff;
+}
+.AdSc_desc_head{
+    padding: 24px;
+display: flex;
+align-items: center;
+justify-content: space-between; 
+}
+.Adsc_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

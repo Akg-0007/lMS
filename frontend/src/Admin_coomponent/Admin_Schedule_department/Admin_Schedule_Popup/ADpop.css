@@ -1,0 +1,79 @@
+.ADpop{
+    padding: 24px;
+    min-height: 
+    500px;
+}
+.ADpop_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ADpop_dropdowns{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    /* width: 100%; */
+}
+.batch_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ADpop_time{
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+.edit-group1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 158px;
+}
+
+.edit-group1 input {
+    padding: 12px;
+    background: transparent;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--clr-labelGrey);
+}
+
+.edit-group1 label {
+    font-size: 12px;
+    position: absolute;
+    top: 54%;
+    left: 12px;
+    transform: translateY(-60%);
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    color: var(--clr-labelGrey);
+}
+
+.edit-group1 input:focus~label,
+.edit-group1 input:valid~label {
+    top: 2px;
+    left: 12px;
+    padding: 0 2px;
+    background-color: var(--clr-greyWhite);
+    color: var(--clr-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+.schedule_AD_btn:hover{
+    background-color: var(--clr-primary);
+    color: #fff;
+}
+.Adsc_right_btn:hover{
+    background-color: var(--clr-primary);
+    color: #fff;
+}

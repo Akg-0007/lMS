@@ -1,0 +1,76 @@
+.profile_heading{
+    padding: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--clr-textLight);
+}
+.profile_heading span{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--clr-textDark);
+}
+.profile_part{
+    padding:0 28px 0 28px;
+}
+.create_student_profile{ 
+    border:2px solid grey
+}
+.create_profile_heading{
+    padding: 24px;
+}
+.student_name{
+    display: flex;
+}
+.profile_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.student_name{
+    /* padding: 5px 0 10px 24px; */
+    position: relative;
+    padding:12px ;
+  }
+  .student_name input{
+    width: 319px;
+    position: relative;
+    height: 46px;
+    padding:12px ;
+    border: 1px solid var(--clr-primary);
+    border-radius: 8px;
+    margin-right: 12px;
+  }
+  .student_name span{
+    position: absolute;
+    font-size: 14px ;
+    font-weight: 400;
+    color: var( --clr-primary);
+    /* padding:0 5px; */
+    top:37%;
+    left: 15px;
+    padding: 0 5px;
+  
+    pointer-events: none;
+    transition: 0.3s ease-in;
+  
+  }
+  .student_name input:focus~span,
+  .student_name input:valid~span{
+  font-size: 12px;
+  left:20px;
+  top:5px;
+    /* transform: translateY(-130%) ; */
+    background-color: var(--clr-greyWhite);
+    color: var(--clr-primary);
+    
+    background-color: #fff;
+  }
+  .small_details{
+    
+    /* gap:10px; */
+  }
+  .dob input , .Category input , .Blood_group input, .Gender input
+  {
+    width:142px;
+  }

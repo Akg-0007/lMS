@@ -1,0 +1,24 @@
+.custom-toast-container .success {
+  background: var(--clr-supportGreenShade);
+  border-radius: 8px;
+  box-shadow: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 400px;
+  position: absolute;
+  left: -60px;
+  color: var(--clr-supportGreen);
+}
+
+.custom-toast-container .error {
+  background-color: #ffdfdd;
+  border-radius: 8px;
+  width: 400px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: none;
+  position: absolute;
+  left: -70px;
+}

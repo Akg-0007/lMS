@@ -1,0 +1,30 @@
+---
+image: node:14-alpine
+stages:
+  - build
+  - development
+pages:
+  stage: development
+  artifacts:
+    paths:
+      - public
+  script:
+    - rm -rf public
+    - cp build/index.html build/404.html
+    - mv build public
+  only:
+    - Routing
+site-build:
+  stage: build
+  image: node:latest
+  artifacts:
+    name: artifact-$CI_COMMIT_REF_NAME
+    paths:
+      - build
+    expire_in: 1h
+  script:
+    - npm install
+    - npm install -g env-cmd
+    - npm run build
+  only:
+    - Routing

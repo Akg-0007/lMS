@@ -1,0 +1,26 @@
+.AdminSearchQuest{
+    padding: 32px;
+    background: #FFFFFF;
+}
+.AdminSearchQuest_borde{
+   border: 2px solid #D0D5DD;
+border-radius: 8px; 
+background: #FFFFFF;
+height: 588px;
+}
+.AdminSearchQuest_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:24px;
+}
+.ad_left_p{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.AD_action_exam{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}

@@ -1,0 +1,106 @@
+.all-assessments {
+    /* height: 593px;
+    width: 1096px; */
+    /* left: 312px;
+    top: 95px; */
+    /* border-radius: 10px; */
+    /* border: 2px solid #0000000D; */
+    /* height: 100%; */
+    /* width: 100%; */
+    padding: 32px;
+    /* margin-right: 15px; */
+}
+
+.assignment_1st {
+    /* padding:24px; */
+
+}
+
+.s-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-right: 24px;
+}
+
+.all_assessments_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.assessment_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.all-assessments table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.all-assessments td {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 21px 24px;
+}
+
+.all-assessments th {
+    font-family: Lexend;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #788898;
+    padding: 21px 24px;
+}
+
+.all-assessments th {
+    background: #F3F6F9;
+}
+
+.all-assessments tr:nth-child(odd) {
+    background: #FFFFFF;
+}
+
+.fixed-header {
+    z-index: 50;
+}
+
+thead th {
+    top: 0;
+    position: sticky;
+    text-align: left;
+    padding: 15px;
+    background: #fff;
+}
+
+.table-class {
+    position: relative;
+}
+
+.submission_marked {
+    color: var(--clr-supportGreen);
+}
+
+.submission_pending {
+    color: var(--clr-supportRed);
+}
+
+.assignment_heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--clr-textDark);
+}

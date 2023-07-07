@@ -1,0 +1,72 @@
+.Ad_student_grades{
+    padding: 15px;
+}
+.Ad_student_grades_header{
+    padding: 10px 32px 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ad_student_grades_header_left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Ad_student_grades_header_left span {
+    font-weight: 600;
+font-size: 24px;
+color: var(--clr-textDark-t);
+cursor: pointer;
+}
+.Ad_student_grades_thead th{
+    background-color:#F3F6F9;
+}
+.Ad_student_grades tr:nth-child(even){
+    background-color:#F3F6F9;
+}
+.Ad_student_grades_header_right{ 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Ad_student_grades_upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0  18px 0 18px;
+}
+.Ad_student_grades_search{
+    display: flex;
+    align-items: center;
+    
+}
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.Ad_student_cgpa:hover{
+    cursor: pointer;
+    color: var(--clr-primary);
+} 
+.AdStudentGrades_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    font-weight: 400;
+font-size: 16px;
+color: #333333;
+}
+.AdStudentGrades_bottom span{
+    font-weight: 400;
+font-size: 14px;
+color: #788898;
+}
+.AdStudentGrades_bottom .right{
+    cursor: pointer;
+
+} 
+.AdStudentGrades_bottom span:hover{
+color: var(--clr-primary);
+}

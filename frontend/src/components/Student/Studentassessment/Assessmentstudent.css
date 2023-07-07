@@ -1,0 +1,258 @@
+.assessmentstudent {
+    background: #FAFAF8;
+    min-height: 720px;
+    width: 100%;
+    padding: 32px;
+}
+
+
+@media (max-width: 786px) {
+    .test-card {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+  
+    .res-card
+     {
+      min-height: auto;
+      width: 400px !important;
+      padding: 16px;
+    }
+    .test-card-right {
+        min-height: auto;
+       width: 400px;
+      }
+  
+    .classtest-heading,
+    .ct-heading {
+      margin-bottom: 24px;
+    }
+  
+    .qt-summary {
+      gap: 10px !important;
+      flex-direction: column;
+    }
+  
+    .qt-summary-content {
+      font-size: 12px;
+    }
+  
+    .classtest-right,
+    .qt-right-name,
+    .qt-no {
+      font-size: 12px;
+    }
+  
+    .qt-info {
+      gap: 16px;
+    }
+  
+    .qt-timer {
+      margin-top: 32px;
+    }
+  
+    .timer-heading,
+    .timer-content {
+      font-size: 12px;
+    }
+  }
+  
+
+
+.heading-student {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-bottom: 32px;
+
+}
+
+.assessment-heading-content {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.close-btn {
+    background: #F04438;
+    border-radius: 8px;
+    padding: 20px;
+    height: 40px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    border: none;
+    color: #FFFFFF;
+    gap: 15px;
+}
+
+.test-card {
+    min-height: 458px;
+    display: flex;
+    width: 100%;
+
+}
+
+.test-card-content {
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background: #FFFFFF;
+    min-height: 593px;
+    padding: 24px;
+    width: 100%;
+}
+
+.test-card-right {
+    min-height: 593px;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.classtest-heading {
+    display: flex;
+    margin-bottom: 32px;
+
+}
+
+.classtest-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.test-instruction {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+
+.test-instruction li {
+    list-style: disc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #788898;
+    margin-left: 24px;
+}
+
+.border-line {
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-line hr {
+    height: 1px;
+    background: #D8DADC;
+    width: 100%;
+}
+
+.qt-summary {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 80px;
+}
+
+
+.qt-summary-content {
+    display: flex;
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    min-height: 35px;
+    align-items: center;
+    gap: 10px;
+}
+
+.ct-heading {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.classtest-right {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    align-items: center;
+    gap: 10px;
+}
+
+.qt-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.qt-right-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #788898;
+
+}
+
+.qt-no {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.qt-info {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+}
+
+.qt-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.timer-heading {
+    color: #788898;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    margin-top: 24px;
+}
+
+.timer-content {
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    margin: 4px 0 45px 0;
+}

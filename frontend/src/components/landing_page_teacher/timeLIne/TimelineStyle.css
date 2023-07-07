@@ -1,0 +1,51 @@
+
+  .timeline {
+  }
+  .time_set {
+    display: flex;
+    /*   grid-template-columns: repeat(9, 100px);
+    grid-auto-rows: 500px; */
+  }
+  
+  .time {
+    position: relative;
+    width: 100px;
+  }
+  span.time {
+    position: absolute;
+    top: -30px;
+    font-size: 12px;
+    left: 0;
+    transform: translateX(-50%);
+    width: auto;
+    opacity: 0.5;
+  }
+  li.time:after {
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ddd;
+    content: "";
+    position: absolute;
+    z-index: -1;
+  }
+  .slot {
+    width: 100%;
+    display: flex;
+    background: var(--clr1);
+    border-left: 5px solid var(--clr);
+    padding: 10px;
+    color: var(--clr);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 0px;
+    margin-top: calc(var(--i) * 60px);
+  }
+  .slot span {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+  }
+  

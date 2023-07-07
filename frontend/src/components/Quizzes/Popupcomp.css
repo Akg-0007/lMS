@@ -1,0 +1,119 @@
+
+/* .btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+} */
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}
+.quiz_input, .quiz_heading,.quiz_txtarea{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quiz_heading{
+  /* padding: 18px 0 10px 24px; */
+  margin-bottom: 12px;
+}
+textarea{
+  resize: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 572px;
+}
+.quiz_heading span{
+  font-size: 18px;
+  font-weight: 500;
+  background: #fff;
+}
+.quiz_heading img{
+  width: 15px;
+  cursor: pointer;
+  height: 15px;
+}
+.quiz_input{
+  /* padding: 5px 0 10px 24px; */
+
+  position: relative;
+}
+.quiz_input input{
+  width: 100%;
+  position: relative;
+  height: 46px;
+  padding:12px ;
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.quiz_input span{
+  position: absolute;
+  font-size: 14px ;
+  font-weight: 400;
+  color: var( --clr-primary);
+  /* padding:0 5px; */
+  top:25%;
+  left: 10px;
+  padding: 0 5px;
+  background-color:#fff;
+  pointer-events: none;
+  transition: 0.3s ease-in;
+
+}
+.quiz_input input:focus~span,
+.quiz_input input:valid~span{
+font-size: 12px;
+top:-7px;
+  /* transform: translateY(-130%) ; */
+  background: #fff;
+  color: var(--clr-primary);
+}
+.quiz_txtarea{
+position:relative;
+margin-bottom: 12px;
+/* padding: 5px 0 10px 24px; */
+}
+
+.quiz_buttons{
+/* padding:14px 28px 10px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap:10px;
+}
+
+.quiz_dropdown{
+  /* padding:10px 0 0 24px; */
+margin-bottom: 12px;
+}

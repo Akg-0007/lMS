@@ -1,0 +1,124 @@
+
+.assignment_options {
+  margin-top: 24px;
+}
+
+.assignment_options .dropdown {
+  border-radius: 8px !important;
+}
+
+.option_description{
+border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.option_description_header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 12px;
+}
+.assignment_create_line{
+border: 1px solid rgba(0, 0, 0, 0.05);
+  /* width: 2px; */
+  height: 166px;
+}
+.Course_dropdown{
+width: 300px;
+padding: 10px 0 10px 0;
+display: flex;
+align-items: center;
+gap:10px;
+}
+.create_marks{
+display: flex;
+align-items: center;
+position: relative;
+}
+.create_marks input{
+position: relative;
+border-radius: 8px;
+padding: 8px 12px;
+width: 145px;
+font-size: 16px;
+border:1px solid var(--clr-txtareaborder);
+color: var(--clr-textDark);
+outline:none;
+}
+.create_marks label {
+  position: absolute;
+  font-size: 14px;
+  color: var(--clr-textDark);
+  left: 16px;
+  top: 8px;
+  transition: 0.3s ease-out;
+}
+
+.create_marks input:focus+label ,
+.create_marks input:valid+label {
+  top: -8px;
+  left: 10px;
+  color: var(--clr-primary);
+  background-color: #fff;
+  padding: 0 3px;
+  font-size: 12px;
+
+}
+
+
+.create_marks input:focus, .create_marks input:valid {
+  border-color: var(--clr-primary);
+}
+.Section_drop{
+width: 300px;
+padding: 10px 0 10px 0;
+display: flex;
+align-items: center;
+gap:12px;
+}
+
+.upload_assignment_file{
+  padding-top:10px ;
+}
+
+
+.date {
+  position: relative;
+  border-radius: 8px;
+  padding: 4px 12px;
+  border: 1px solid var(--clr-txtareaborder);
+}
+
+.date label{
+  position: absolute;
+  font-weight: 500;
+  font-size: 13px;
+  top: 8px;
+  left: 12px;
+  color: var(--clr-textDark);
+}
+
+.date input[type="date"] {
+  /* z-index: 9999; */
+  /* opacity: 0; */
+}
+
+.date input[type="date"].active {
+
+}
+.date input[type="date"].active + label{
+    opacity: 0;
+}
+
+.date input[type="date"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.date input[type="date"].active::-webkit-calendar-picker-indicator {
+  /* Customize calendar icon */
+  /* display: none; */
+}
+

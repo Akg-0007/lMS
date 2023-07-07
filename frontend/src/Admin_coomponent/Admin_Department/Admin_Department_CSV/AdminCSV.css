@@ -1,0 +1,44 @@
+.AdminCSv{
+    /* padding: 24px; */
+}
+.AdscvHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.addButton:hover {
+background-color: var(--clr-primary);
+color: #fff;
+}
+.csvUpper{
+    padding:24px 0 0 0;
+}
+.AdscvHeader img{
+    cursor: pointer;
+}
+.AdminCSvDesc{
+    border: 2px solid #D0D5DD;
+border-radius: 8px;
+}
+.AdminCSvDescHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 0 0;
+}
+.csvRight{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.csvAction{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.csvmail,.csvphone{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}

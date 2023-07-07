@@ -1,0 +1,43 @@
+.AdminQuestion{
+    padding: 31px;
+    background: #F5F5F5;
+}
+.AdminQuestion_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+.AdminQuestion_border{
+    border: 2px solid #D0D5DD;
+border-radius: 8px;
+background: #FFFFFF;
+height: 567px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.AdminQuest_mid{
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+.AdminQuestion_options{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.AdminSearch{
+    width: 34px;
+    
+}
+.AdminSearch:hover{
+    background-color: var(--clr-primary);
+    color:#fff;
+    
+}
+.Admin_Search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

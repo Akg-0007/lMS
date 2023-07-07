@@ -1,0 +1,38 @@
+.deletePopUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 393px;
+    min-height: 251px;
+}
+.delete-pop-main{
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* backdrop-filter: blur(2px); */
+    min-height: 817px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: fixed;
+    z-index: 1;
+}
+.deletepop{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:18px;
+}
+.buttons-delete{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.warning{
+    text-align: center;
+}
+.deleteYes{
+    background: #F04438;
+    color: #fff;
+}

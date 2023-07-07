@@ -1,0 +1,51 @@
+
+
+/* hide the default arrow */
+details > summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* general styles */
+details {
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+summary {
+  background-color: #3a1c71;
+  color: #ebe8f0;
+  padding: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.icon svg {
+  transition: all 0.35s ease-out;
+}
+
+details > div {
+  background-color: #ebe8f0;
+  padding: 1rem 2rem;
+}
+
+/* open state */
+details[open] summary {
+  border-bottom-right-radius: unset;
+}
+
+details[open] > div {
+  border-bottom-right-radius: 24px;
+}
+
+details[open] .icon svg {
+  transform: rotateX(180deg);
+}

@@ -1,0 +1,42 @@
+.AdPer{
+    background-color: #fff;
+    width: 100%;
+}
+.ADPerTable{
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #D8DADC;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    transition: 0.5s;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: translateX(200%);
+    background: #fff;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: #5B36C6;
+  }
+  

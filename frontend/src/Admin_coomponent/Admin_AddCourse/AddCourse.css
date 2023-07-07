@@ -1,0 +1,28 @@
+
+.addCourse{
+    padding: 24px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc__ADDCOurse{
+    display: flex;
+flex-direction: column;
+gap:10px;
+}
+.add_Syllabus{
+    color: #818181;
+
+    font-weight: 400;
+font-size: 14px;
+}
+.add_create{
+    float: right;
+}
+.AdscvHeader span{
+    font-weight: 600;
+font-size: 24px;
+
+color: #333333;}

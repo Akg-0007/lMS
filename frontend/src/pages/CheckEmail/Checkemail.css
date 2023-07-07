@@ -1,0 +1,118 @@
+.checkemail {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 25px;
+}
+
+.checkemail-logo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+
+}
+
+.checkemail-logo img {
+    width: 100%;
+    object-fit: contain;
+    /* background: #EDE7FF; */
+    border-radius: 50%;
+
+}
+
+.checkemail-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.checkemail-content .email {
+    /* font-family: 'Lexend'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--clr-textDark)
+}
+
+.checkemail-content .reset {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color:var(--clr-textLight);
+}
+
+.openemail-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.openemail {
+    background: var(--clr-greyDark);
+    border-radius: 8px;
+    width: 369px;
+    height: 45px;
+    border: none;
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:var( --clr-greyWhite);
+    cursor: default;
+}
+
+.openemail:enabled {
+    background-color: var(--clr-primary);
+    cursor: pointer;
+}
+
+.email-resend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-resend .email-resend-content {
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 18px;
+}
+
+.email-resend-content .resend-mail {
+    font-size: inherit !important;
+    color: var(--clr-primary)
+}
+
+.back-to-login {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.back-to-login img {
+    padding: 0 11px;
+}
+
+.back-content {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--clr-textLight)
+}

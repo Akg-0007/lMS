@@ -1,0 +1,181 @@
+.timetable-container {
+    padding: 0 24px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    background: #E9EAEC;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background: #EEEAFF;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background: #E6FEFF;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background: #FFEBDD;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background: #E9EFFF;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 10px 17px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background: #c7eddb;
+    border-radius: 3.49714px;
+    gap: 10px;
+    padding: 10px 17px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.timetable-subject {
+    color: #818181;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.9886px;
+    line-height: 130%;
+}
+
+.timetable-roomno {
+    color: #788898;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.9886px;
+    line-height: 130%;
+}
+
+
+.timetable-btn1 {
+    background: #818181;
+    color: #FFFFFF;
+}
+
+.timetable-btn2 {
+    background: #7E65EF;
+    color: #FFFFFF;
+}
+
+.timetable-btn3 {
+    background: #24B0C9;
+    color: #FFFFFF;
+}
+
+.timetable-btn4 {
+    background: #E58F55;
+    color: #FFFFFF;
+}
+
+.timetable-btn5 {
+    background: #5272E9;
+    color: #FFFFFF;
+}
+.timetable-btn6 {
+    background: rgb(22, 127, 22);
+    color: #FFFFFF;
+}
+
+
+/* .timetable-container {
+    padding: 0 24px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  } */
+ 
+  
+  @media (min-width: 768px) {
+    .timetable-container {
+      grid-template-columns: 1fr 1fr 1fr ;
+    }
+  }
+  
+  .container-1,
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5,
+  .container-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    gap: 10px;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .timetable-btn1,
+  .timetable-btn2,
+  .timetable-btn3,
+  .timetable-btn4,
+  .timetable-btn5,
+  .timetable-btn6 {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  
+  .timetable-subject,
+  .timetable-roomno {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  
+ 
+

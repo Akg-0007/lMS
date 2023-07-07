@@ -1,0 +1,26 @@
+.AdminEdit{
+    padding: 32px;
+}
+.AdminEdit_header{
+    padding: 0 0 24px 0;
+}
+.AdminEdit_header span{
+    display: flex;
+    align-items: baseline;
+    gap:10px;
+    font-size: 26px;
+    color: #333333;
+    font-weight: 600;
+    
+}
+.AdminEdit_header p {
+    font-weight: 400;
+font-size: 16px;
+color: #788898;
+}
+.AdminEdit_desc{
+    border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+background: #FFFFFF;
+padding: 24px;
+}

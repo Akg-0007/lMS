@@ -1,0 +1,188 @@
+.Ad_Stu_profile{
+    
+    /* background-color: #F5F5F5; */
+}
+.Ad_stu_profile_row{
+    /* padding:0px 32px 0px 32px; */
+    /* padding: 15px; */
+}
+.Ad_stu_profile_header{
+    padding:0 32px 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ad_student_grades_header_right img{
+cursor: pointer;
+}
+.Ad_stu_profile_header_left{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.Ad_stu_profile_header_left span{
+    font-weight: 600;
+font-size: 24px;
+color: var(--clr-textDark-t);
+cursor: pointer;
+}
+.Ad_stu_profile_header_left p {
+    font-weight: 400;
+font-size: 16px;
+color: var( --clr-textLight);
+}
+.Ad_stu_profile_header_right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.Ad_stu_profile_header_right img {
+    cursor: pointer;
+}
+.Ad_student_grades_col{
+    display: flex;
+    gap: 34px;
+    padding:10px 42px 10px 42px;
+}
+.Ad_student_grades_col_8{
+    border: 2px solid rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+}
+.profile_details{
+    background-color: #fff;
+}
+.Ad_stu_profile_table_area{
+    
+    padding:0 34px 0 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ad_stu_profile_searchbar{
+    display: flex;
+    align-items: center; 
+}
+.add_student{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Ad_stu_profile_search_header span{
+    font-weight: 500;
+font-size: 18px;
+color: var(--clr-textDark-t);
+}
+.add_student{
+    height: 34px;
+    padding: 8px 12px;
+    border: 1px solid #D0D5DD;
+border-radius: 4px;
+}
+.add_student:hover
+{
+    background-color: var(--clr-primary);
+    color: white;
+}
+.Ad_student_grades_thead{
+    background-color:#F3F6F9;
+}
+.Ad_student_grades_thead tr {
+    font-weight: 400;
+font-size: 13px;
+color: #788898;
+}
+.Ad_student_grades_tbody td{  
+    /* padding:50px 0 50px 18px; */
+    font-weight: 400;
+font-size: 14px;
+color: var(--clr-textDark-t);
+}
+.Ad_student_grades_col_4{
+   background-color: #fff;
+border-radius:4px;
+padding:32px 24px 0 24px;
+border: 2px solid rgba(0, 0, 0, 0.05);
+}
+.Ad_student_grades_profile{
+    background: #F9FAFC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    padding: 24px;
+}
+.Ad_student_grades_profile img{
+    border-radius: 50%;
+    
+}
+.Ad_student_grades_profile p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+.Ad_student_grades_profile span{
+    font-weight: 400;
+font-size: 14px;
+color: #818181;
+}
+.student_roll{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.student_roll p {
+    font-weight: 400;
+font-size: 13px;
+color: #333333;
+}
+.Ad_student_grades_profile_desc{
+    padding: 24px 5px 10px 5px;
+}
+.Ad_student_grades_department{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+.Ad_student_grades_profile_View{
+    padding: 32px 0 32px 0;
+    float: right;
+}
+.Ad_student_grades_department span {
+    font-weight: 400;
+font-size: 13px;
+color: #333333;
+}
+.Ad_student_grades_department p{
+    font-weight: 400;
+font-size: 13px;
+color: #818181;
+}
+.ad_stu_profile_table{
+    padding: 0px 24px 0 24px;
+}
+.ad_stu_profile{
+    width: 100%;
+    padding: 24px;
+    
+}
+.ad_stu_profile thead tr
+{
+    font-weight: 400;
+font-size: 13px;
+color: var(--clr-textLight);
+    background-color:#F3F6F9;
+}
+.ad_stu_profile tbody td{
+    text-align: left;
+  
+    font-weight: 400;
+font-size: 14px;
+color: var(--clr-textDark-t);
+}
+
+.details_table:nth-child(even){
+
+    background-color: #F3F6F9;
+}

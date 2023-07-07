@@ -1,0 +1,69 @@
+.grade-container {
+    min-height: 245px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.grade-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gd-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+    display: flex;
+    gap: 10px;
+}
+
+.grade-clr {
+    color: #0FB366;
+    /* margin-bottom: 32px; */
+}
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.gd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.gd-heading {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.gd-cgpa {
+    color: #788898;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    display: flex;
+    gap: 10px;
+}
+
+.gd-line {
+    height: 0px;
+    margin: 32px 0;
+}
+
+.gd-line hr {
+    width: 100%;
+    border: 1px solid #D8DADC;
+    opacity: 0.5;
+}

@@ -1,0 +1,15 @@
+.enrollments-list {
+    width: 100%;
+}
+
+.enrollments-content {
+    background: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 646px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.dash_heading{
+    cursor: pointer;
+}

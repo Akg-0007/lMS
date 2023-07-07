@@ -1,0 +1,22 @@
+input[type="date"] {
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add custom styles */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  /* Customize calendar icon */
+  color: #333;
+  font-size: 20px;
+}
+input[type="date"]::-webkit-inner-spin-button {
+  /* Remove spinner button */
+  display: none;
+}

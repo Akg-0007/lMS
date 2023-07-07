@@ -1,0 +1,167 @@
+
+
+.login-forget {
+    background: var( --clr-greyWhite);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.login-forget-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-forget-content img {
+    width: 100%;
+    object-fit: contain;
+    background: var(--clr-primaryShade);
+    border-radius: 50%;
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.9;
+}
+
+.forget-content {
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: var( --clr-textDark);
+}
+
+.forget-content-2 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color:var(--clr-textLight);
+    margin-bottom: 20px;
+}
+
+.login-forget-form {
+
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.login-forget .form-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.form-group input {
+    padding: 12px;
+    width: 100%;
+    background: transparent;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px; 
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--clr-labelGrey);
+}
+.form-group input:focus, 
+.form-group input:valid  {
+    border-color: #6842D4;
+}
+
+.form-group input.invalid {
+    border-color: var(--clr-supportRed);
+}
+   
+.form-group input[type=number]::-webkit-inner-spin-button, 
+.form-group input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.form-group label {
+    font-size: 12px;
+    position: absolute;
+    top: 54%;
+    left: 12px;
+    transform: translateY(-60%);
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    color: var(--clr-labelGrey);
+   
+}
+
+.form-group input:focus~label,
+.form-group input:valid~label {
+    top: 2px;
+    left: 12px;
+    padding: 0 2px;
+    background-color: var(--clr-greyWhite);
+    color: var(--clr-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.login-forget .loginbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-forget .loginbtn .errormssg {
+    font-size: 14px;
+    color: var(--clr-supportRed);
+    position: absolute;
+    bottom: -20px;
+}
+
+.loginforget-btn {
+       
+    background: #6842D4;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--clr-greyWhite);
+    cursor: pointer;
+}
+
+.backto-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backto-login img{
+    padding: 0 10px;
+}
+
+.back-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var( --clr-textLight);
+}
+.form-group input.invalid {
+    border-color: var(--clr-supportRed);
+}
