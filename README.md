@@ -1,4 +1,21 @@
 <h1>Learning Management System (LMS) Project</h1>
+<!-- <h3>Live link : https://lms-1.netlify.app/</h3> -->
+## Live Link
+
+Visit the live LMS application at: [https://lms-1.netlify.app/](https://lms-1.netlify.app/)
+## User Credentials
+
+### Admin
+- ID: 38933
+- Password: 2002
+
+### Teacher
+- ID: 10932
+- Password: 1234
+
+### Student
+- ID: 20222
+- Password: 2002
 
 <p>This repository contains the source code for a Learning Management System (LMS) project. The project aims to provide an online platform for educational institutions to manage their courses, students, assessments, and more. The system consists of three main profiles: Admin, Teacher, and Student.</p>
 
